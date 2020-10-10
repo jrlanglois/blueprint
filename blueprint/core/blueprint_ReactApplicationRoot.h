@@ -182,7 +182,7 @@ namespace blueprint
          *
          *  Hot reloading is enabled by default in debug builds if JUCE_DEBUG is set.
          **/
-        juce::var evaluate(const juce::File& bundle)
+        juce::var evaluateFile(const juce::File& bundle)
         {
             JUCE_ASSERT_MESSAGE_THREAD
 
@@ -205,7 +205,7 @@ namespace blueprint
                 if (beforeBundleEval)
                     beforeBundleEval(bundle);
 
-                auto result = engine.evaluate(bundle);
+                auto result = engine.evaluateFile(bundle);
 
                 if (afterBundleEval)
                     afterBundleEval(bundle);
@@ -320,7 +320,7 @@ namespace blueprint
          *         }
          *     };
          *
-         *     appRoot.evaluate(myAppBundle);
+         *     appRoot.evaluateFile(myAppBundle);
          * }
          *
          * @endcode
@@ -364,7 +364,7 @@ namespace blueprint
          *         }
          *     };
          *
-         *     appRoot.evaluate(myAppBundle);
+         *     appRoot.evaluateFile(myAppBundle);
          * }
          *
          * @endcode
@@ -418,7 +418,7 @@ namespace blueprint
 
             engine.reset();
             initViewManager();
-            evaluate(bundle);
+            evaluateFile(bundle);
         }
 
         //==============================================================================

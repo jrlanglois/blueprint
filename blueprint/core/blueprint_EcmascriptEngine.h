@@ -65,7 +65,7 @@ namespace blueprint
          *  @throws EcmascriptEngine::Error in the event of an evaluation error
          */
         juce::var evaluate (const juce::String& code);
-        juce::var evaluate (const juce::File& code);
+        juce::var evaluateFile (const juce::File& code);
 
         //==============================================================================
         /** Registers a native method by the given name in the global namespace. */

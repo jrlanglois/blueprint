@@ -63,7 +63,7 @@ GainPluginAudioProcessorEditor::GainPluginAudioProcessorEditor (GainPluginAudioP
 
     // Next we just add our appRoot and kick off the app bundle.
     addAndMakeVisible(appRoot);
-    appRoot.evaluate(bundle);
+    appRoot.evaluateFile(bundle);
 
     // Now we set up parameter listeners and register their current values.
     // For this example plugin, we only have the one "Gain" parameter, but

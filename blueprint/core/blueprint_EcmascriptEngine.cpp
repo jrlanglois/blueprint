@@ -108,7 +108,7 @@ namespace blueprint
         return result;
     }
 
-    juce::var EcmascriptEngine::evaluate (const juce::File& code)
+    juce::var EcmascriptEngine::evaluateFile (const juce::File& code)
     {
         jassert(code.existsAsFile());
         jassert(code.loadFileAsString().isNotEmpty());

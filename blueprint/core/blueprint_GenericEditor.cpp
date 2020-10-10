@@ -27,7 +27,7 @@ namespace blueprint
 
         // Setup the ReactApplicationRoot callbacks and evaluate the supplied JS code/bundle
         registerAppRootCallbacks();
-        appRoot.evaluate(bundleFile);
+        appRoot.evaluateFile(bundleFile);
 
         // Add ReactApplicationRoot as child component
         addAndMakeVisible(appRoot);

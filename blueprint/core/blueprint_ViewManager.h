@@ -1,18 +1,4 @@
-/*
-  ==============================================================================
-
-    blueprint_ViewManager.h
-    Created: 21 May 2020 15:32:00am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include <map>
-
-#include "blueprint_View.h"
-#include "blueprint_ShadowView.h"
 
 namespace blueprint
 {

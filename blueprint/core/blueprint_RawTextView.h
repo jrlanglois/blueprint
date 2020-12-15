@@ -1,21 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_RawTextView.h
-    Created: 11 Apr 2019 11:27:27am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_View.h"
-
 
 namespace blueprint
 {
-
-    //==============================================================================
     /** The RawTextView class is more or less a wrapper around a string that asserts
         itself as a leaf node in the tree by refusing a resize and painting nothing.
 

@@ -1,16 +1,5 @@
-/*
-  ==============================================================================
-
-    blueprint_View.cpp
-    Created: 26 Nov 2018 3:38:37am
-
-  ==============================================================================
-*/
-
-
 namespace blueprint
 {
-
     namespace detail
     {
         juce::var getMouseEventRelatedTarget(const juce::MouseEvent& e, const blueprint::View& view)

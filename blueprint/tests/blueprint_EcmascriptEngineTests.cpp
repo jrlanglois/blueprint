@@ -1,13 +1,3 @@
-/*
-  ==============================================================================
-
-    blueprint_EcmascriptEngineTests.cpp
-    Created: 26 Oct 2019 3:47:39pm
-
-  ==============================================================================
-*/
-
-
 class EcmascriptEngineEvaluateTest  : public juce::UnitTest
 {
 public:

@@ -1,20 +1,5 @@
-/*
-  ==============================================================================
-
-    blueprint_AppHarness.cpp
-    Created: 21 Nov 2020 11:27:37am
-
-  ==============================================================================
-*/
-
-#pragma once
-
-#include "blueprint_AppHarness.h"
-
-
 namespace blueprint
 {
-
     //==============================================================================
     AppHarness::AppHarness(ReactApplicationRoot& _appRoot)
         : appRoot(_appRoot)

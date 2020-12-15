@@ -1,16 +1,4 @@
-/*
-  ==============================================================================
-
-    blueprint_ImageView.h
-    Created: 20 Apr 2019 5:25:25pm
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_View.h"
-
 
 namespace blueprint
 {
@@ -25,7 +13,6 @@ namespace blueprint
                    url.getScheme().isNotEmpty() &&
                    !url.toString(false).startsWith("data");
         }
-
     }
 
     //==============================================================================

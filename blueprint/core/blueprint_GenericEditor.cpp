@@ -1,18 +1,5 @@
-/*
-  ==============================================================================
-
-    blueprint_GenericEditor.cpp
-    Created: 3 Nov 2019 4:47:39pm
-
-  ==============================================================================
-*/
-
-#pragma once
-
-
 namespace blueprint
 {
-
     //==============================================================================
     BlueprintGenericEditor::BlueprintGenericEditor (juce::AudioProcessor& proc, const juce::File& bundle, juce::AudioProcessorValueTreeState* vts)
         : juce::AudioProcessorEditor (proc)

@@ -1,22 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_ScrollViewContentShadowView.h
-    Created: 16 Jun 2019 10:38:37pm
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_ShadowView.h"
-#include "blueprint_View.h"
-
 
 namespace blueprint
 {
-
-    //==============================================================================
     /** The ScrollViewContentShadowView extends a ShadowView to provide specialized
      *  behavior for flushing layout bounds to the content element of a ScrolLView.
      *

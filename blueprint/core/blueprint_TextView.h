@@ -1,20 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_TextView.h
-    Created: 28 Nov 2018 3:27:27pm
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_View.h"
-
 
 namespace blueprint
 {
-
     //==============================================================================
     /** The TextView class is a core container abstraction for declaring text components
         within Blueprint's layout system.

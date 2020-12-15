@@ -1,22 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_AppHarness.h
-    Created: 21 Nov 2020 11:27:37am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_EcmascriptEngine.h"
-#include "blueprint_FileWatcher.h"
-#include "blueprint_ReactApplicationRoot.h"
-
 
 namespace blueprint
 {
-
     /** The AppHarness is a simple class which composes over your ReactApplicationRoot
      *  to provide file watching and hot reloading behavior for the bundle files your app evaluates.
      *

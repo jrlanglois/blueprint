@@ -1,10 +1,10 @@
 /*******************************************************************************
- * This file declares a JUCE module for the shared library code implemented in
- * this directory. The block below is read by the Projucer to automatically
- * generate project code that uses the module. For details, see the
- * JUCE Module Format.txt file in the JUCE directory.
+    This file declares a JUCE module for the shared library code implemented in
+    this directory. The block below is read by the Projucer to automatically
+    generate project code that uses the module. For details, see the
+    JUCE Module Format.txt file in the JUCE directory.
 
-   BEGIN_JUCE_MODULE_DECLARATION
+    BEGIN_JUCE_MODULE_DECLARATION
     ID:                 blueprint
     vendor:             Nick Thompson
     version:            0.1.0
@@ -13,7 +13,7 @@
     minimumCppStandard: 17
     dependencies:       juce_gui_basics
     searchpaths:        ./duktape/src-noline/ ./yoga
-   END_JUCE_MODULE_DECLARATION
+    END_JUCE_MODULE_DECLARATION
 *******************************************************************************/
 
 #pragma once

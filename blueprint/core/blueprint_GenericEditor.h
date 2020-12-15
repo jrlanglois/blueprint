@@ -1,22 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_GenericEditor.h
-    Created: 3 Nov 2019 4:47:39pm
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_AppHarness.h"
-#include "blueprint_ReactApplicationRoot.h"
-
 
 namespace blueprint
 {
-
-    //==============================================================================
     /** The BlueprintGenericEditor is a default AudioProcessorEditor with preinstalled functionality
      *  for working with Blueprint.
      *

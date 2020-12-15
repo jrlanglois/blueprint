@@ -1,14 +1,3 @@
-/*
-  ==============================================================================
-
-    blueprint_ScrollView.cpp
-    Created: 10 Nov 2020 18:07pm
-
-  ==============================================================================
-*/
-
-#include "blueprint_ScrollView.h"
-
 namespace blueprint
 {
     ScrollView::ScrollView()

@@ -1,24 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_ReactApplicationRoot.h
-    Created: 9 Dec 2018 10:20:37am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_EcmascriptEngine.h"
-#include "blueprint_FileWatcher.h"
-#include "blueprint_View.h"
-#include "blueprint_ViewManager.h"
-
 
 namespace blueprint
 {
-
-    //==============================================================================
     /** The ReactApplicationRoot class is the primary point of coordination between
      *  the React.js reconciler and the native View heirarchy.
      *

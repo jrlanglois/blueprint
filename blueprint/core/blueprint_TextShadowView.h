@@ -1,21 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_TextShadowView.h
-    Created: 17 Apr 2019 8:38:37am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_ShadowView.h"
-#include "blueprint_View.h"
-
 
 namespace blueprint
 {
-
     //==============================================================================
     /** We use this method to measure the size of a given string so that the
      *  text container knows what size to take.

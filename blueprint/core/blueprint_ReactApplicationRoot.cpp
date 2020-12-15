@@ -1,20 +1,5 @@
-/*
-  ==============================================================================
-
-    blueprint_ReactApplicationRoot.cpp
-    Created: 9 Dec 2018 10:20:37am
-
-  ==============================================================================
-*/
-
-#pragma once
-
-#include "blueprint_ReactApplicationRoot.h"
-
-
 namespace blueprint
 {
-
     ReactApplicationRoot::ReactApplicationRoot(std::shared_ptr<EcmascriptEngine> ee)
         : viewManager(this)
         , engine(ee)

@@ -1,18 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_FileWatcher.h
-    Created: 10 Oct 2020 3:08:39pm
-
-  ==============================================================================
-*/
-
 #pragma once
-
 
 namespace blueprint
 {
-
     //==============================================================================
     /** Helper class which watches files for changes and triggers a user supplied
      *  callback in thte event of a file change.

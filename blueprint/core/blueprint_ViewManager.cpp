@@ -1,26 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_ViewManager.cpp
-    Created: 21 May 2020 15:32:00am
-
-  ==============================================================================
-*/
-
-#include "blueprint_ViewManager.h"
-#include "blueprint_CanvasView.h"
-#include "blueprint_ImageView.h"
-#include "blueprint_ScrollView.h"
-#include "blueprint_ScrollViewContentShadowView.h"
-#include "blueprint_TextView.h"
-#include "blueprint_TextShadowView.h"
-
 namespace blueprint
 {
-
     namespace
     {
-
         /** A quick helper for registering view types. */
         template <typename ViewType, typename ShadowViewType>
         struct GenericViewFactory
@@ -32,7 +13,6 @@ namespace blueprint
                 return {std::move(view), std::move(shadowView)};
             }
         };
-
     }
 
     ViewManager::ViewManager(View* rootView)

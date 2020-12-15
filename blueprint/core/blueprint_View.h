@@ -1,20 +1,7 @@
-/*
-  ==============================================================================
-
-    blueprint_View.h
-    Created: 26 Nov 2018 3:38:37am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include <map>
-
 
 namespace blueprint
 {
-
     // Internally we use a juce::Uuid for uniquely identifying views, but we
     // need that same identifier to make a transit through JavaScript land
     // and still match afterwards. So we map our Uuids into a signed 32-bit integer

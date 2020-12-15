@@ -1,15 +1,4 @@
-/*
-  ==============================================================================
-
-    blueprint_ShadowView.h
-    Created: 17 Apr 2019 8:38:37am
-
-  ==============================================================================
-*/
-
 #pragma once
-
-#include "blueprint_View.h"
 
 #define BP_SPREAD_SETTER_PERCENT(setter) setter, setter##Percent
 #define BP_SPREAD_SETTER_AUTO(setter) BP_SPREAD_SETTER_PERCENT(setter), setter##Auto
